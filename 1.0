@@ -1,0 +1,12 @@
+length = int(input("How tall are you in cm? "))
+if length >= 120:
+  print("You can ride the rollercoaster! ")
+  age = int(input("How old are you? "))
+  if age <= 18:
+            print("The price is 12$ ")
+  elif age >= 60:
+    print("The price is 5$ ")
+  else:
+    print("The price is 20$ ")
+else:
+  print("Sorry you have to grow a bit taller. ")
